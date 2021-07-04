@@ -29,6 +29,8 @@ export default class SwipeToSlide extends Component {
       draggable: true,
       autoplay: false,
       variableWidth: true,
+      swipeToSlide:true,
+      swipe:true,
       adaptiveHeight: false,
       centerMode: false,
       accessibility: true,
