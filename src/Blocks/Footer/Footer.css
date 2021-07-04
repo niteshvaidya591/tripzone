@@ -1,7 +1,7 @@
 .footer-container {
   background: #000;
   background: linear-gradient(90deg, #000 0%, #133350 100%);
-  padding: 2rem ;
+  padding: 2rem;
   margin-top: 1rem;
 }
 .footer-container > .footer-section {
@@ -45,7 +45,6 @@
 @media only screen and (max-width: 767px) {
   .footer-container .footer-section {
     flex-direction: column;
-    padding: 30px;
   }
   .footer-container .footer-col:not(:last-of-type) {
     margin-bottom: 4rem;
@@ -56,10 +55,9 @@
   .footer-container .footer-section {
     width: 1200px;
   }
-
 }
 
-@media (max-width:1023px){
+@media (max-width: 1023px) {
   .footer-container .footer-col {
     flex-basis: 25%;
   }

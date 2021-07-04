@@ -7,19 +7,24 @@ const formItems = [
         label: 'Your Name',
         error: 'Name is required',
         pattern: "[A-Za-z ]{3,}",
-        type:"text"
+        type:"text",
+        title:"Name should be minimun 3 charcters"
 
     }, {
 
         id: 'contact',
         label: 'Contact No',
         error: 'Contact No is required',
-        type:"text"
+        type:"text",
+        title:"Mobile no should be 10 charcters",
+        pattern:"[0-9]{10}",
+        maxLength:'10'
     }, {
         id: 'email',
         label: 'Email',
         error: 'Email is required',
-        type:"email"
+        type:"email",
+        title:"Email should match this pattern name@domain.extension"
     }
 ]
 class Quote extends React.Component {
@@ -101,7 +106,9 @@ class Quote extends React.Component {
                                     id={i.id}
                                     required="required"
                                     type={i.type}
+                                    title={i.title}
                                     pattern={i.pattern ? i.pattern : null}
+                                    maxLength={i.maxLength ? i.maxLength : null}
                                 />
                                 <p className="quote-form__error">{i.error}</p>
                             </div>)

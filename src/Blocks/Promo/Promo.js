@@ -10,7 +10,7 @@ const PromoContent = () => {
         <div className="promo-content app-container">
           <h2 className="promo-heading">PLAN A TRIP</h2>
           <h2 className="promo-body">
-            Make your vacation the most memorable one
+            <p>Make your vacation the most</p> <p>memorable one</p>
           </h2>
         </div>
       </div>

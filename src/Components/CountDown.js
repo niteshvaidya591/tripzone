@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 class CountDown extends React.Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class CountDown extends React.Component {
   render() {
     return (
       <>
-        {this.state.timer.length !== 0 ? `${this.state.timer.days}d : ${this.state.timer.hours}h : ${this.state.timer.minutes}m : ${this.state.timer.seconds}s` : null}
+        {this.state.timer.length !== 0 ? `${this.state.timer.days}d ${this.state.timer.hours}h ${this.state.timer.minutes}m ${this.state.timer.seconds}s` : null}
       </>
     )
   }

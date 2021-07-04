@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -68,40 +68,12 @@ export default function Footer() {
           <div className="footer-col">
             <h2>Disclaimer</h2>
             <p>
-              This layout is created as per part of Sirius UI Recruitments. All
+              This layout is created as a part of Sirius UI Recruitments. All
               the above content has no direct relation with Sirius business.
             </p>
-          </div>
-          <Switch>
-            <Route path="/">
-              <About />
-            </Route>
-            <Route path="/">
-              <Awards />
-            </Route>
-            <Route path="/">
-              <Contact />
-            </Route>
-            <Route path="/">
-              <Feedback />
-            </Route>
-          </Switch>
+          </div>         
         </div>
       </footer>
     </Router>
   );
-}
-function About() {
-  return <h2></h2>;
-}
-
-function Awards() {
-  return <h2></h2>;
-}
-
-function Contact() {
-  return <h2></h2>;
-}
-function Feedback() {
-  return <h2></h2>;
 }

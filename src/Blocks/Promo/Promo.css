@@ -10,10 +10,10 @@
   height: auto;
 }
 .promo .promo-content {
-    position: absolute;
-    margin: auto;
-    transform: translate(7%, -2rem);
-    bottom: 0;
+  position: absolute;
+  margin: auto;
+  transform: translate(7%, -2rem);
+  bottom: 0;
 }
 
 .promo .promo-content .promo-heading {
@@ -23,8 +23,8 @@
 }
 
 .promo .promo-content .promo-body {
-    font-size: 2.05rem;
-    margin-top: 1rem;
+  font-size: 2.05rem;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -35,9 +35,13 @@
   .promo .promo-content .promo-body {
     font-size: 18px;
   }
-
-  .promo .promo-content {
-    padding: 0 0 30px 10px;
+  .promo .promo-content{
+    left: 1rem;
   }
+}
+@media (min-width: 1024px) {
+  .promo .promo-content {
+    transform: translate(20%, -2rem);
 
+  }
 }
