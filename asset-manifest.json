@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tripzone/static/css/main.6e7091a5.chunk.css",
-    "main.js": "/tripzone/static/js/main.c138defb.chunk.js",
-    "main.js.map": "/tripzone/static/js/main.c138defb.chunk.js.map",
+    "main.css": "/tripzone/static/css/main.ff1c6962.chunk.css",
+    "main.js": "/tripzone/static/js/main.128e5e5d.chunk.js",
+    "main.js.map": "/tripzone/static/js/main.128e5e5d.chunk.js.map",
     "runtime-main.js": "/tripzone/static/js/runtime-main.ff27063f.js",
     "runtime-main.js.map": "/tripzone/static/js/runtime-main.ff27063f.js.map",
     "static/js/2.1f9be87e.chunk.js": "/tripzone/static/js/2.1f9be87e.chunk.js",
     "static/js/2.1f9be87e.chunk.js.map": "/tripzone/static/js/2.1f9be87e.chunk.js.map",
     "index.html": "/tripzone/index.html",
-    "static/css/main.6e7091a5.chunk.css.map": "/tripzone/static/css/main.6e7091a5.chunk.css.map",
+    "static/css/main.ff1c6962.chunk.css.map": "/tripzone/static/css/main.ff1c6962.chunk.css.map",
     "static/js/2.1f9be87e.chunk.js.LICENSE.txt": "/tripzone/static/js/2.1f9be87e.chunk.js.LICENSE.txt",
     "static/media/Promo-image.14efcb9c.png": "/tripzone/static/media/Promo-image.14efcb9c.png",
     "static/media/icon-party-sunny.d7e1d0b8.svg": "/tripzone/static/media/icon-party-sunny.d7e1d0b8.svg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.ff27063f.js",
     "static/js/2.1f9be87e.chunk.js",
-    "static/css/main.6e7091a5.chunk.css",
-    "static/js/main.c138defb.chunk.js"
+    "static/css/main.ff1c6962.chunk.css",
+    "static/js/main.128e5e5d.chunk.js"
   ]
 }
