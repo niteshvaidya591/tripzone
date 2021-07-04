@@ -1,0 +1,43 @@
+.promo {
+  position: relative;
+  color: #fff;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+.promo img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.promo .promo-content {
+    position: absolute;
+    margin: auto;
+    transform: translate(7%, -2rem);
+    bottom: 0;
+}
+
+.promo .promo-content .promo-heading {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.promo .promo-content .promo-body {
+    font-size: 2.05rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .promo .promo-content .promo-heading {
+    font-size: 20px;
+  }
+
+  .promo .promo-content .promo-body {
+    font-size: 18px;
+  }
+
+  .promo .promo-content {
+    padding: 0 0 30px 10px;
+  }
+
+}

@@ -1,0 +1,63 @@
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.quote-container h2 {
+  text-align: center;
+  margin: 0 0 2rem 0;
+  color: #133357;
+}
+.quote-container form {
+  width: 100%;
+}
+.quote-container form button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto 1rem auto;
+}
+.quote-container .quote-form__group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.quote-container .quote-form__group .quote-form__label {
+  margin-bottom: 0.5rem;
+  color: #aac3a7;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.quote-container .quote-form__group .quote-form__input {
+  border-radius: 5px;
+  height: 2.8rem;
+  border: 1.8px solid #aac3a7;
+  padding: 1rem;
+}
+.quote-container .quote-form__group .quote-form__error {
+  color: red;
+  margin: 0.5rem 0;
+  display: none;
+}
+.quote-container .quote-form__success{
+  background-color: #d0f8cc;
+  color: #aac3a7;
+  padding: 1rem;
+  border-top: 1px solid #ced5cd;
+  border-bottom: 1px solid #ced5cd;
+}
+.quote-form__success:empty{
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .quote-container {
+    max-width: 350px;
+  }
+}

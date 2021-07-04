@@ -1,0 +1,24 @@
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+.nav-container .nav-links__group {
+  display: flex;
+  max-width: 1300px;
+  list-style: none;
+}
+.nav-container .nav-links__item {
+  margin: 0 1rem;
+}
+.nav-container .nav-links__item .nav-links__item-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+@media (max-width:767px) {
+  .nav-container {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,44 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+
+.slider-container {
+  margin-left: 5vw;
+  padding: 0px 10px;
+}
+.slider-container img {
+  width: 185px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  border-bottom-left-radius: 0;
+  box-shadow: 1px 1px 2px 1px #dddddd3d;
+}
+.slider-container h4 {
+  color: #aac3a7;
+  margin: 1rem 0;
+}
+.slider-container h2 {
+  color: #133357;
+  margin-bottom: 1.5rem;
+}
+
+.slide-item {
+  padding-right: 17px;
+  min-width: 200px !important;
+}
+@media (max-width: 768px) {
+  .slider-container img {
+    width: 90%;
+  }
+
+  .slick-initialized .slick-slide {
+    display: block;
+    max-width: 206px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-container img {
+    width: 100%;
+  }
+}

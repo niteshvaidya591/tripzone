@@ -1,0 +1,15 @@
+.header-container {
+  padding: 1.5rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(19, 51, 80, 1) 100%
+  );
+  color: #fff;
+  text-align: center;
+}
+.header-container .header-main__title{
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
