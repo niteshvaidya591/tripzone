@@ -23,37 +23,38 @@ export default class SwipeToSlide extends Component {
   }
   render() {
     const settings = {
-      className: "center",
       infinite: false,
-      centerPadding: "50px",
-      slidesToShow: 6,
+      slidesToScroll: 1,
       arrows: false,
       draggable: true,
       autoplay: false,
+      variableWidth: true,
+      adaptiveHeight: false,
+      centerMode: false,
+      accessibility: true,
       responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 7.5,
+          }
+        },
+        {
+          breakpoint: 1119,
+          settings: {
+            slidesToShow: 4.5,
+          }
+        },
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            infinite: true,
-            swipeToSlide: true,
-            swipe: true,
+            slidesToShow: 3.5,
           }
         },
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            initialSlide: 3
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 2.5,
           }
         }
       ]

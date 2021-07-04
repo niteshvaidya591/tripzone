@@ -5,8 +5,8 @@
   padding: 0px 10px;
 }
 .slider-container img {
-  width: 185px;
-  height: 175px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
@@ -21,7 +21,9 @@
   color: #133357;
   margin-bottom: 1.5rem;
 }
-
+.slick-track {
+  display: flex !important;
+}
 .slide-item {
   padding-right: 17px;
   min-width: 200px !important;
